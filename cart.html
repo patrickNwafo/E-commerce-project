@@ -1,22 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech2etc Ecommerce Tutorial</title>
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" /> -->
 
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 
-        <link rel="stylesheet" href="style.css">
-    </head>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt="logo-img"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" id="lg-bag" href="cart.html"><i class="fa fa-shopping-bag"
+                            aria-hidden="true"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+
+        <h2>#Let's_talk</h2>
+
+        <p>LEAVE A MESSAGE, we love to hear from you!</p>
+
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Images</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtitle</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt="img"></td>
+                    <td>Caetoon Astronout T-Shirts</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="2"></td>
+                    <td>$118.19</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f2.jpg" alt="img"></td>
+                    <td>Caetoon Astronout T-Shirts</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="2"></td>
+                    <td>$118.19</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f3.jpg" alt="img"></td>
+                    <td>Caetoon Astronout T-Shirts</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="2"></td>
+                    <td>$118.19</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="logo-img">
+            <h4>Contact</h4>
+            <p><strong>Phone:</strong> +234 703 7729 150</p>
+            <p><strong>Hours</strong> 10:00 - 18:00 Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Googel play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="apple-img">
+                <img src="img/pay/play.jpg" alt="playsore-img">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="payment-img">
+        </div>
+
+        <div class="copywrite">
+            <p>© 2022, Rick-Tech - Ecommerce Project</p>
+        </div>
+    </footer>
 
 
-        <script src="script.js"></script>
-
-    </body>
+    <script src="script.js"></script>
+</body>
 
 </html>
